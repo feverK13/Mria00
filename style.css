@@ -1,0 +1,148 @@
+.container{
+    margin: 30px auto;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Raleway', sans-serif;
+}
+img{
+    box-shadow: 0 0 7px #3d3d3d;
+    border-radius: 3px;
+}
+header{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #212121;
+}
+header .text_block{
+    width: 46%;
+    height: 320px;
+    box-shadow: inset 60px 60px 0 #fed600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_block h1, p{
+    width: 96%;
+}
+.pic1{
+    height: 320px;
+}
+main{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main h2{
+    text-align: center;
+}
+.info_block{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info_block p{
+    width: 56%;
+    line-height: 25px;
+}
+.info_pic{
+    width: 500px;
+}
+.but{
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 3px;
+    background-color: #fed600;
+    color: #ffffff;
+    text-decoration: none;
+}
+.but1{
+    align-self: flex-start;
+}
+.but2{
+    align-self: center;
+}
+.but2:hover{
+    display: inline-block;
+    box-shadow: 8px 8px 0 #fed600;
+}
+a:hover{
+    transition: 0.5s;
+    background-color: #103f91;
+    box-shadow: 13px 13px 0 #fed600;
+    border-radius: 2px;
+}
+footer{
+    width: 100%;
+    height: 1060px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer h2{
+    text-align: left;
+    font-size: 32px;
+}
+.dream_pic{
+    width: 95%;
+}
+.more{
+    width: 100%;
+    height: 1348px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.more h2{
+    height: 16px;
+}
+.plane{
+    width: 100px;
+    box-shadow: inset 1.5em 0.5em gold;
+}
+.facts-about-plane{
+    width: 100%;
+}
+.facts-about-plane h3{
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section div p{
+    width: 450px;
+}
+table{
+    align-self: center;
+    width: 80%;
+    height: 380px;
+    padding: 78px 78px 10px 8px;
+    box-shadow: inset -70px 70px 0 #fed600;
+}
+td{
+    box-shadow: 0 0 4px grey;
+    padding: 8px 10px;
+}
+.name_td{
+    width: 48%;
+    font-size: 18px;
+    font-weight: 500;
+}
